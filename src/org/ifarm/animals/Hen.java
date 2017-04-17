@@ -6,6 +6,7 @@ package org.ifarm.animals;
 
 public class Hen extends Bird {
     public void run() {
+        setFood(nextRandomFood());
         setEating(true);
         
         while(now() - birthTime < MAX_AGE_MILLIS) {
