@@ -1,5 +1,9 @@
 package org.ifarm.animals;
 
+/*
+ * Hen system doc: http://articles.extension.org/pages/65372/avian-reproductive-systemfemale
+ */
+
 public class Hen extends Bird {
     public void run() {
         setEating(true);
