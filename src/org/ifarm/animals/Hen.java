@@ -16,7 +16,7 @@ public class Hen extends Bird {
                 continue;
             };
 
-            if (checkHealt() < 0.5) { // Hackable
+            if (checkHealth() < 0.5) { // Hackable
                 setFood(nextRandomFood());
                 continue;
             }
