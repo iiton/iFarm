@@ -26,7 +26,7 @@ public class Hen extends Bird {
                 continue;     // Hackable
             }
 
-            Ovum ovum = getNextOvum();
+            Ovum ovum = ovumPool.poll();
             EggBuilder eb = new EggBuilder(ovum);
             
             setEating(true); // keep eating while building egg.
